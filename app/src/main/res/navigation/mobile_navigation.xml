@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    tools:ignore="UnusedNavigation">
+    <fragment
+        android:id="@+id/navigation_alakzatok"
+        android:name="com.example.maths.Fragments.Alakzatok"
+        android:label="Alakzatok"
+        tools:layout="@layout/fragment_alakzatok"/>
+    <fragment
+        android:id="@+id/navigation_testek"
+        android:name="com.example.maths.Fragments.Testek"
+        android:label="Testek"
+        tools:layout="@layout/fragment_testek"/>
+    <fragment
+        android:id="@+id/navigation_szamologep"
+        android:name="com.example.maths.Fragments.Szamologep"
+        android:label="Szamologep"
+        tools:layout="@layout/fragment_szamologep"/>
+    <fragment
+        android:id="@+id/navigation_profil"
+        android:name="com.example.maths.Fragments.Profil"
+        android:label="Profil"
+        tools:layout="@layout/fragment_profil"/>
+
+</navigation>

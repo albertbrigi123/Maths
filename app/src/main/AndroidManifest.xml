@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Alakzatok.Paralelogramma"></activity>
+        <activity android:name=".Alakzatok.Trapez" />
+        <activity android:name=".Alakzatok.Teglalap" />
+        <activity android:name=".Alakzatok.Haromszog" />
+        <activity android:name=".Alakzatok.Kor" />
+        <activity android:name=".Alakzatok.Negyzet" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
