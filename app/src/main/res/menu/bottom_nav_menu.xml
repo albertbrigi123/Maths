@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_alakzatok"
+        android:icon="@drawable/ic_negyzet"
+        android:title="Alakzatok" />
+
+    <item
+        android:id="@+id/navigation_testek"
+        android:icon="@drawable/ic_kocka"
+        android:title="Testek"/>
+
+    <item
+        android:id="@+id/navigation_szamologep"
+        android:icon="@drawable/ic_calculator"
+        android:title="Számológép" />
+
+    <item
+        android:id="@+id/navigation_profil"
+        android:icon="@drawable/ic_profile_black_24dp"
+        android:title="Profil" />
+
+</menu>

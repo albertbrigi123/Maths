@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Alakzatok.Haromszog">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <TextView
+            android:id="@+id/Nev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_centerHorizontal="true"
+            android:text="Háromszög" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Nev"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/haromszog" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+        <TextView
+            android:id="@+id/Kerulet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="Kerület: a+b+c" />
+
+        <TextView
+            android:id="@+id/Terulet"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Kerulet"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="Terület: a*h/2" />
+
+        <EditText
+            android:id="@+id/a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_below="@id/Terulet"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:inputType="text|number"
+            android:hint="a=?" />
+        <EditText
+            android:id="@+id/b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_below="@id/a"
+            android:layout_centerHorizontal="true"
+            android:inputType="text|number"
+            android:hint="b=?" />
+
+        <EditText
+            android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_below="@id/b"
+            android:layout_centerHorizontal="true"
+            android:inputType="text|number"
+            android:hint="c=?" />
+        <EditText
+            android:id="@+id/h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_below="@id/c"
+            android:layout_centerHorizontal="true"
+            android:inputType="text|number"
+            android:hint="h=?" />
+
+
+
+
+        <Button
+            android:id="@+id/szamol"
+            android:layout_below="@id/Terulete"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Számol" />
+
+        <Button
+            android:id="@+id/torol"
+            android:layout_toEndOf="@id/szamol"
+            android:layout_below="@id/Terulete"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Törlés"
+            android:layout_toRightOf="@id/szamol" />
+
+        <TextView
+            android:id="@+id/kerulete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/h"
+            android:layout_marginTop="5dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/Terulete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kerulete"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text=""
+            />
+
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
