@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Alakzatok.Paralelogramma"></activity>
+        <activity android:name=".Testek.Kup"></activity>
+        <activity android:name=".Testek.Henger" />
+        <activity android:name=".Testek.Teglatest" />
+        <activity android:name=".Testek.Gula" />
+        <activity android:name=".Testek.Kocka" />
+        <activity android:name=".Testek.Gomb" />
+        <activity android:name=".Alakzatok.Paralelogramma" />
         <activity android:name=".Alakzatok.Trapez" />
         <activity android:name=".Alakzatok.Teglalap" />
         <activity android:name=".Alakzatok.Haromszog" />

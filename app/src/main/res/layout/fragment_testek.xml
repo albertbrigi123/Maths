@@ -11,6 +11,65 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent">
 
+        <GridLayout
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:src="@drawable/kocka" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:src="@drawable/gomb" />
+
+            <ImageButton
+                android:layout_marginTop="20dp"
+                android:id="@+id/imageButton3"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:src="@drawable/gula" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:src="@drawable/teglatest" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:src="@drawable/henger" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:src="@drawable/kup" />
+        </GridLayout>
+
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottomnav"
             android:layout_width="match_parent"
