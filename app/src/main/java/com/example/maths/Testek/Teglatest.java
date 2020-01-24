@@ -56,8 +56,8 @@ public class Teglatest extends AppCompatActivity {
                     Integer f,t;
                     f = 2*(a*b+b*c+c*a);
                     t = a*b*c;
-                    felszin.setText("Felszine: " + f);
-                    terfogat.setText("Terfogata: " + t);
+                    felszin.setText("Felszíne: " + f);
+                    terfogat.setText("Térfogata: " + t);
                 }
             }
         });

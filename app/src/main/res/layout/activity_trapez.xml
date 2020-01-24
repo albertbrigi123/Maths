@@ -111,6 +111,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginLeft="100dp"
             android:layout_width="wrap_content"
+            android:background="@color/colorAccent"
             android:layout_height="wrap_content"
             android:text="Számol" />
 
@@ -121,6 +122,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5dp"
             android:layout_width="wrap_content"
+            android:background="@color/colorAccent"
             android:layout_height="wrap_content"
             android:text="Törlés"
             android:layout_toRightOf="@id/szamol" />

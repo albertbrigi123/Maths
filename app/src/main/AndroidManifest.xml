@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Testek.Kup"></activity>
+
+        <activity android:name=".Testek.Kup" />
         <activity android:name=".Testek.Henger" />
         <activity android:name=".Testek.Teglatest" />
         <activity android:name=".Testek.Gula" />
@@ -21,7 +22,8 @@
         <activity android:name=".Alakzatok.Haromszog" />
         <activity android:name=".Alakzatok.Kor" />
         <activity android:name=".Alakzatok.Negyzet" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

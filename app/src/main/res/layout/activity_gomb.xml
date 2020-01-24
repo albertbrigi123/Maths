@@ -74,6 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/a"
+            android:background="@color/colorAccent"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="20dp"
             android:text="Számol" />
@@ -85,6 +86,7 @@
             android:layout_below="@id/a"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
+            android:background="@color/colorAccent"
             android:layout_toEndOf="@id/szamol"
             android:layout_toRightOf="@id/szamol"
             android:text="Törlés" />
@@ -103,7 +105,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/felszine"
-            android:layout_alignParentBottom="true"
+
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="86dp"

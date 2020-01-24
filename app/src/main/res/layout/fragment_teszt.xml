@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Fragments.Teszt">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Teszt"
+                 android:textSize="40dp"
+                 android:id="@+id/teszt"
+                 android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/elsokerdes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_below="@id/teszt"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:text="1. Ha egy négyzet oldalhosszúsága 5 cm, akkor hány centiméter a négyzet kerülete?"
+                />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/elsokerdes"
+                android:inputType="number"
+                android:layout_marginTop="20dp"
+                android:id="@+id/elsovalasz"
+                />
+                <TextView
+                    android:id="@+id/masodikkerdes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/elsovalasz"
+                    android:textSize="20dp"
+                    android:text="2. Ha egy kör sugara 10cm, akkor hány centiméter a kör területe?"
+                    />
+                <EditText
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/masodikkerdes"
+                    android:layout_marginTop="20dp"
+                    android:inputType="number"
+
+                    android:id="@+id/masodikvalasz"/>
+                <TextView
+                    android:id="@+id/harmadikkerdes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/masodikvalasz"
+                    android:textSize="20dp"
+                    android:text="3. Ha egy téglalap 2 oldalának hossza 2 cm és a területe 6cm, akkor hány centiméter a másik 2 oldala?"
+                    />
+                <EditText
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/harmadikkerdes"
+                    android:layout_marginTop="20dp"
+                    android:inputType="number"
+
+                    android:id="@+id/harmadikvalasz"/>
+                <TextView
+                    android:id="@+id/negyedikkerdes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/harmadikvalasz"
+                    android:textSize="20dp"
+                    android:text="4. Ha egy háromszög átfogója 5 cm, az egyik befogo 2 cm, a másik pedig 3 cm, akkor hány centiméter a háromszög kerülete?"
+                    />hány
+                <EditText
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/negyedikkerdes"
+                    android:layout_marginTop="20dp"
+                    android:inputType="number"
+
+                    android:id="@+id/negyedikvalasz"/>
+                <TextView
+                android:id="@+id/otodikkerdes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/negyedikvalasz"
+                android:textSize="20dp"
+                android:text="5. Ha egy trapéz kis alapja 5 cm, nagyalapja 7 cm és magassága 3 cm, akkor mennyi a trapéz területe?"
+                />
+                <EditText
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/otodikkerdes"
+                    android:layout_marginTop="20dp"
+                    android:inputType="number"
+
+                    android:id="@+id/otodikvalasz"/>
+                <TextView
+                    android:id="@+id/hatodikkerdes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/otodikvalasz"
+                    android:textSize="20dp"
+                    android:text="6. Ha egy paralelogramma területe 8 cm és magassága 2cm, akkor hány centiméter az alapja?"
+                    />
+                <EditText
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/hatodikkerdes"
+                    android:layout_marginTop="20dp"
+                    android:inputType="number"
+                    android:id="@+id/hatodikvalasz"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kiértékelés"
+                    android:id="@+id/kuld"
+                    android:background="@color/colorAccent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_below="@id/hatodikvalasz"/>
+
+            </RelativeLayout>
+
+
+
+        </ScrollView>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomnav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bottom_nav_menu">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

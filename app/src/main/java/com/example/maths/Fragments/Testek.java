@@ -90,11 +90,8 @@ public class Testek extends Fragment {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 Fragment selectedFragment=null;
                 switch (item.getItemId()) {
-                    case R.id.navigation_profil:
-                        selectedFragment = new Profil();
-                        break;
-                    case R.id.navigation_szamologep :
-                        selectedFragment=new Szamologep();
+                    case R.id.navigation_teszt:
+                        selectedFragment=new Teszt();
                         break;
                     case R.id.navigation_testek:
                         selectedFragment=new Testek();

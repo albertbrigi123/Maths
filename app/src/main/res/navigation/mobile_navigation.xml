@@ -15,10 +15,10 @@
         android:label="Testek"
         tools:layout="@layout/fragment_testek"/>
     <fragment
-        android:id="@+id/navigation_szamologep"
-        android:name="com.example.maths.Fragments.Szamologep"
+        android:id="@+id/navigation_teszt"
+        android:name="com.example.maths.Fragments.Teszt"
         android:label="Szamologep"
-        tools:layout="@layout/fragment_szamologep"/>
+        tools:layout="@layout/fragment_teszt"/>
     <fragment
         android:id="@+id/navigation_profil"
         android:name="com.example.maths.Fragments.Profil"

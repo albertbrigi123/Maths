@@ -53,8 +53,8 @@ public class Kup extends AppCompatActivity {
                     Double f,t;
                     f = 3.14*a*(a+Math.sqrt((a*a)+(m*m)));
                     t = (3.14*a*a*m)/3;
-                    felszin.setText("Felszine: " + f.toString());
-                    terfogat.setText("Terfogata: " + t.toString());
+                    felszin.setText("Felszíne: " + f.toString());
+                    terfogat.setText("Térfogata: " + t.toString());
                 }
             }
         });

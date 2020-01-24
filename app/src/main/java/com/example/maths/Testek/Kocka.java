@@ -50,8 +50,8 @@ public class Kocka extends AppCompatActivity {
                     int f,t;
                     f = 6*a*a;
                     t = a*a*a;
-                    felszin.setText("Felszine: " + f);
-                    terfogat.setText("Terfogata: " + t);
+                    felszin.setText("Felszíne: " + f);
+                    terfogat.setText("Térfogata: " + t);
                 }
             }
         });

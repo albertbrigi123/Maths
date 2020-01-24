@@ -53,8 +53,8 @@ public class Henger extends AppCompatActivity {
                     Double f,t;
                     f = 2*3.14*a*(a+m);
                     t = 3.14*a*a*m;
-                    felszin.setText("Felszine: " + f.toString());
-                    terfogat.setText("Terfogata: " + t);
+                    felszin.setText("Felszíne: " + f.toString());
+                    terfogat.setText("Térfogata: " + t);
                 }
             }
         });

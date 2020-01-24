@@ -27,7 +27,7 @@
             android:layout_height="200dp"
             android:layout_below="@+id/Nev"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="40dp"
+
             app:srcCompat="@drawable/kup2" />
 
         <ImageButton
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/imageView"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
+
             android:text="Felszín: pi*r*(r+sqrt(r*r+m*m))"
             android:textSize="20dp" />
 
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/Felszin"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:text="Térfogat: (pi*r*r*m)/3"
             android:textSize="20dp" />
 
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/Terfogat"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:ems="10"
             android:hint="r=?"
             android:inputType="text|number" />
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/a"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:ems="10"
             android:hint="m=?"
             android:inputType="text|number" />
@@ -84,8 +84,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/m"
+            android:background="@color/colorAccent"
             android:layout_marginLeft="100dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:text="Számol" />
 
         <Button
@@ -93,8 +94,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/m"
+            android:background="@color/colorAccent"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_toEndOf="@id/szamol"
             android:layout_toRightOf="@id/szamol"
             android:text="Törlés" />
@@ -113,7 +115,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/felszine"
-            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="86dp"

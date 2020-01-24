@@ -28,7 +28,8 @@ public class Trapez extends AppCompatActivity {
         ertek1=findViewById(R.id.a);
         ertek2=findViewById(R.id.b);
         ertek3=findViewById(R.id.c);
-        ertek4=findViewById(R.id.h);
+        ertek4=findViewById(R.id.d);
+        ertek5=findViewById(R.id.m);
         kerulet=findViewById(R.id.kerulete);
         terulet=findViewById(R.id.Terulete);
 

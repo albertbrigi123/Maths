@@ -3,22 +3,18 @@
 
     <item
         android:id="@+id/navigation_alakzatok"
-        android:icon="@drawable/ic_negyzet"
+        android:icon="@drawable/ic_alakzatok"
         android:title="Alakzatok" />
 
     <item
         android:id="@+id/navigation_testek"
-        android:icon="@drawable/ic_kocka"
+        android:icon="@drawable/ic_testek"
         android:title="Testek"/>
 
     <item
-        android:id="@+id/navigation_szamologep"
-        android:icon="@drawable/ic_calculator"
-        android:title="Számológép" />
+        android:id="@+id/navigation_teszt"
+        android:icon="@drawable/ic_insert_drive_file_black_24dp"
+        android:title="Teszt" />
 
-    <item
-        android:id="@+id/navigation_profil"
-        android:icon="@drawable/ic_profile_black_24dp"
-        android:title="Profil" />
 
 </menu>

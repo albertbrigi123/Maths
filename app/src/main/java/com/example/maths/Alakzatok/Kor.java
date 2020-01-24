@@ -48,7 +48,7 @@ public class Kor extends AppCompatActivity {
                     a = Integer.parseInt(x);
                     Double k,t;
                     k = 2*3.14*a;
-                    t = 3.14+a+a;
+                    t = 3.14*a*a;
                     kerulet.setText("Kerülete: " + k.toString());
                     terulet.setText("Területe: " + t.toString());
                 }

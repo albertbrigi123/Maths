@@ -54,8 +54,8 @@ public class Gula extends AppCompatActivity {
                     mo = Math.sqrt(m+(a/2));
                     f = a*a+4*((a-mo)/2);
                     t = ((a*a)-m)/3;
-                    felszin.setText("Felszine: " + f.toString());
-                    terfogat.setText("Terfogata: " + t);
+                    felszin.setText("Felszíne: " + f.toString());
+                    terfogat.setText("Térfogata: " + t);
                 }
             }
         });

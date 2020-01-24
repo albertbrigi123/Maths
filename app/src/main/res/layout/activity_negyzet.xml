@@ -74,6 +74,7 @@
         android:layout_below="@id/Terulete"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="100dp"
+            android:background="@color/colorAccent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Számol" />
@@ -82,6 +83,7 @@
             android:id="@+id/torol"
             android:layout_toEndOf="@id/szamol"
             android:layout_below="@id/Terulete"
+            android:background="@color/colorAccent"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:layout_width="wrap_content"

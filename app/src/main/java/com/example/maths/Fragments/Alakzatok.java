@@ -1,7 +1,5 @@
 package com.example.maths.Fragments;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -11,7 +9,6 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
 import com.example.maths.Alakzatok.Haromszog;
 import com.example.maths.Alakzatok.Kor;
@@ -97,11 +94,8 @@ public class Alakzatok extends Fragment {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 Fragment selectedFragment=null;
                 switch (item.getItemId()) {
-                    case R.id.navigation_profil:
-                        selectedFragment = new Profil();
-                        break;
-                    case R.id.navigation_szamologep :
-                        selectedFragment=new Szamologep();
+                    case R.id.navigation_teszt:
+                        selectedFragment=new Teszt();
                         break;
                     case R.id.navigation_testek:
                         selectedFragment=new Testek();

@@ -50,8 +50,8 @@ public class Gomb extends AppCompatActivity {
                     Double f,t;
                     f = 4*3.14*a*a;
                     t = (4*3.14*a*a*a)/3;
-                    felszin.setText("Felszine: " + f.toString());
-                    terfogat.setText("Terfogata: " + t.toString());
+                    felszin.setText("Felszíne: " + f.toString());
+                    terfogat.setText("Térfogata: " + t.toString());
                 }
             }
         });
